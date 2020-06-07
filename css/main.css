@@ -11,14 +11,15 @@
 
 .hero {
   max-width: 1600px;
-  height: 600px;
+  min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding: 200px 452px;
+  text-align: center;
+  padding: 200px 372px;
+
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-
+  background-color: var(--footer-background);
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.8),
@@ -28,22 +29,17 @@
 }
 
 .hero-title {
-  margin-bottom: 56px;
-  font-style: normal;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--primary-white-color);
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
 .hero .button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 32px;
-
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
